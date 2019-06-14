@@ -1,0 +1,13 @@
+
+1.项目地址
+  老师端：http://dev.bstchain.com/st/index.html#/MainIndex?memType=1
+  家长端：http://dev.bstchain.com/st/index.html#/MainIndex?memType=2
+2.路由跳转
+  全部页面设置为缓存页面，在需要缓存的页面配置keepAliveRoutes:['SubUserNews','SubUserNewsSet','SubUserClass','SubUserStudent' ,'SubUserClassLeader','SubUserShare','SubUserAbout'],noLoading:true,在
+  在页面的activited生命周期中执行
+  if(!this.$route.meta.noLoading) {
+    this._init_page();
+  }
+  即可
+
+

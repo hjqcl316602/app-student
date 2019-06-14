@@ -1,0 +1,50 @@
+.van-swipe__indicator {
+  width: 8px ;
+  height: 8px;
+  background-color: #999;
+}
+.van-swipe__indicator--active {
+  background-color: #fff;
+}
+.van-dialog {
+  width: auto;
+  max-width: 90%;
+  min-width: 80%;
+}
+.van-dialog__message {
+  text-align: center;
+}
+.van-dialog__confirm,
+.van-dialog__confirm:active {
+  color: #1C83E3;
+}
+.van-actionsheet {
+  max-height: 70%;
+}
+.swiper-pagination-bullet {
+  background-color: #999;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fff ;
+}
+.van-progress {
+  height: 10px;
+  border-radius: 10px;
+  background-color: #F5F9FD;
+}
+.van-switch--on {
+  background-color: #1C83E3;
+}
+.van-radio {
+  margin-right: 10px;
+}
+.van-radio .van-icon-checked {
+  color: #1C83E3;
+}
+.van-radio__label {
+  font-weight: 800 ;
+  color: #999;
+}
+.van-radio .van-icon {
+  font-size: 16px;
+}
